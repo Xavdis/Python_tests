@@ -1,16 +1,26 @@
-# This is a sample Python script.
+Name = 5
+you = 54
+print(Name + you)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+name = "Youu"
+nAme = 'Youu'
+print("First try: " + name)
+print(f"{type(name)} + {type(nAme)}")
 
+if name == "You": print("Yes")
+else: print("Second try: No")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+result = Name < you and Name == 5
+print(f"Third try: {result} and your age ({Name})")
 
+print(f"Check type Name: {type(Name)}")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print(len(str(result)))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+string = ('Wassaaaaap')
+string_list = list(string)
+
+unique_list = list(dict.fromkeys(string_list))
+print(unique_list)
+
+print("Hello!!!!")
