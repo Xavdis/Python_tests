@@ -21,4 +21,6 @@ string = ('Wassaaaaap')
 string_list = list(string)
 
 unique_list = list(dict.fromkeys(string_list))
+
+
 print(unique_list)
