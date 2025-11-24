@@ -3,7 +3,8 @@ def add_int(a,b):
     newList.append(a)
     newList.append(b)
     c1 = a+b
-    newList.append()
+    newList.append(c1)
+    return a+b
 
 a = 4
 b = 2
