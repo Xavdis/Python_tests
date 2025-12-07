@@ -16,7 +16,7 @@ class GetInternet(ABC):
     def get_internet(self):
         pass
 
-class IPhone(ConnectioniconDevices):
+class IPhone(MakeCall, SendSMS, GetInternet):
     def make_call(self):
         print("colling...")
     def send_sms(self):
@@ -24,8 +24,9 @@ class IPhone(ConnectioniconDevices):
     def get_internet(self):
         print("getting internet connection...")
 
-class SumsungOld(ConnectioniconDevices):
+class SumsungOld(MakeCall):
     def make_call(self):
+        pass
 
 
 iphine = IPhone()
